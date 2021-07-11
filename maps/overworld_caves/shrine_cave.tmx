@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="21">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="23">
  <properties>
   <property name="light" value="dark"/>
   <property name="music" value="cave"/>
@@ -244,6 +244,8 @@
   <object id="17" gid="373" x="80" y="160" width="16" height="16"/>
   <object id="18" gid="373" x="176" y="48" width="16" height="16"/>
   <object id="20" gid="374" x="400" y="448" width="16" height="16"/>
+  <object id="21" gid="385" x="304" y="256" width="16" height="16"/>
+  <object id="22" gid="385" x="64" y="80" width="16" height="16"/>
  </objectgroup>
  <objectgroup id="10" name="zones" visible="0">
   <object id="10" type="area" x="16" y="0" width="464" height="480"/>

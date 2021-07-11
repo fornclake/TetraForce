@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="96" height="54" tilewidth="16" tileheight="16" infinite="1" nextlayerid="21" nextobjectid="397">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="96" height="54" tilewidth="16" tileheight="16" infinite="1" nextlayerid="21" nextobjectid="405">
  <properties>
   <property name="music" value="shore"/>
  </properties>
@@ -2939,7 +2939,6 @@
   </properties>
   <object id="374" name="stalfaux" gid="766" x="864" y="384" width="16" height="16"/>
   <object id="375" name="stalfaux" gid="766" x="897.333" y="369.333" width="16" height="16"/>
-  <object id="376" name="stalfaux" gid="766" x="1153.33" y="641.333" width="16" height="16"/>
   <object id="377" name="stalfaux" gid="766" x="1169.33" y="689.333" width="16" height="16"/>
   <object id="378" name="slime" gid="772" x="545.333" y="705.333" width="16" height="16"/>
   <object id="379" name="slime" gid="772" x="689.333" y="721.333" width="16" height="16"/>
@@ -2947,7 +2946,9 @@
   <object id="381" name="slime" gid="771" x="417.333" y="705.333" width="16" height="16"/>
   <object id="382" name="slime" gid="771" x="433.333" y="673.333" width="16" height="16"/>
   <object id="383" name="slime" gid="771" x="657.333" y="721.333" width="16" height="16"/>
-  <object id="384" name="slime" gid="771" x="1185.33" y="657.333" width="16" height="16"/>
+  <object id="400" name="knawblin" gid="799" x="1152" y="656" width="16" height="16"/>
+  <object id="401" name="thief_cat" gid="803" x="832" y="544" width="16" height="16"/>
+  <object id="404" gid="802" x="1056" y="624" width="16" height="16"/>
  </objectgroup>
  <objectgroup id="19" name="zones" visible="0" locked="1">
   <object id="51" type="area" x="16" y="0" width="752" height="864"/>

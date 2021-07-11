@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="17" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="12">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="17" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="13">
  <properties>
   <property name="music" value="cave"/>
  </properties>
  <tileset firstgid="1" source="../../tiled/overworld/overworld_tileset.tsx"/>
  <tileset firstgid="291" source="../../tiled/town/town_interior.tsx"/>
  <tileset firstgid="471" source="../../tiled/objects.tsx"/>
- <tileset firstgid="504" source="../../tiled/cave/cave_tileset.tsx"/>
+ <tileset firstgid="511" source="../../tiled/cave/cave_tileset.tsx"/>
  <layer id="3" name="ground" width="17" height="20">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -60,9 +60,9 @@
 291,292,292,292,292,292,292,292,292,292,292,292,292,292,292,292,292,
 296,297,297,297,297,297,297,297,297,297,297,297,297,297,297,297,297,
 301,302,302,302,302,302,302,302,302,302,302,302,302,416,415,418,295,
-0,0,0,0,0,0,0,0,539,0,0,0,0,0,0,0,296,
-0,0,0,0,0,0,0,0,544,545,538,0,0,0,0,0,296,
-0,0,0,0,0,0,0,0,0,0,544,549,0,550,545,545,301,
+0,0,0,0,0,0,0,0,546,0,0,0,0,0,0,0,296,
+0,0,0,0,0,0,0,0,551,552,545,0,0,0,0,0,296,
+0,0,0,0,0,0,0,0,0,0,551,556,0,557,552,552,301,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -147,6 +147,7 @@
     <property name="color" value="red"/>
    </properties>
   </object>
+  <object id="12" gid="505" x="64" y="96" width="16" height="16"/>
  </objectgroup>
  <objectgroup id="7" name="zones" visible="0" locked="1">
   <object id="5" type="area" x="0" y="32" width="272" height="288"/>

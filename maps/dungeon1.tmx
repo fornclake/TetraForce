@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="1" nextlayerid="13" nextobjectid="185">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="1" nextlayerid="13" nextobjectid="211">
  <properties>
   <property name="music" value="dungeon"/>
  </properties>
@@ -2149,20 +2149,18 @@
   <object id="42" gid="383" x="416" y="1104" width="16" height="16"/>
   <object id="43" gid="383" x="400" y="1104" width="16" height="16"/>
   <object id="44" gid="383" x="464" y="832" width="16" height="16"/>
-  <object id="46" gid="383" x="928" y="480" width="16" height="16">
+  <object id="46" gid="383" x="976" y="544" width="16" height="16">
    <properties>
     <property name="spawned_by" value="room2"/>
    </properties>
   </object>
-  <object id="47" gid="383" x="976" y="496" width="16" height="16">
+  <object id="47" gid="383" x="880" y="544" width="16" height="16">
    <properties>
     <property name="spawned_by" value="room2"/>
    </properties>
   </object>
   <object id="48" gid="383" x="1152" y="784" width="16" height="16"/>
-  <object id="49" gid="383" x="1200" y="832" width="16" height="16"/>
   <object id="51" gid="383" x="944" y="944" width="16" height="16"/>
-  <object id="53" gid="383" x="272" y="528" width="16" height="16"/>
   <object id="60" gid="385" x="304" y="944" width="16" height="22">
    <properties>
     <property name="chest_spawn" type="bool" value="true"/>
@@ -2181,19 +2179,14 @@
   </object>
   <object id="69" gid="385" x="1104" y="960" width="16" height="22"/>
   <object id="70" gid="385" x="1056" y="832" width="16" height="22"/>
-  <object id="71" gid="385" x="1024" y="784" width="16" height="22"/>
-  <object id="72" gid="385" x="880" y="544" width="16" height="22">
-   <properties>
-    <property name="spawned_by" value="room2"/>
-   </properties>
-  </object>
-  <object id="73" gid="385" x="848" y="496" width="16" height="22">
+  <object id="71" gid="385" x="864" y="784" width="16" height="22"/>
+  <object id="73" gid="385" x="992" y="480" width="16" height="22">
    <properties>
     <property name="location" value=""/>
     <property name="spawned_by" value="room2"/>
    </properties>
   </object>
-  <object id="74" gid="385" x="816" y="480" width="16" height="22">
+  <object id="74" gid="385" x="848" y="480" width="16" height="22">
    <properties>
     <property name="location" value=""/>
     <property name="spawned_by" value="room2"/>
@@ -2223,7 +2216,7 @@
   <object id="85" gid="371" x="0" y="752" width="16" height="16">
    <properties>
     <property name="def" value="ammo"/>
-    <property name="item" value="10 Bombs"/>
+    <property name="item" value="10 Tetrans"/>
    </properties>
   </object>
   <object id="86" gid="371" x="800" y="608" width="16" height="16">
@@ -2372,25 +2365,25 @@
     <property name="location" value="room1"/>
    </properties>
   </object>
-  <object id="176" gid="385" x="880" y="1120" width="16" height="22">
+  <object id="176" gid="385" x="976" y="1072" width="16" height="22">
    <properties>
     <property name="location" value=""/>
     <property name="spawned_by" value="room1"/>
    </properties>
   </object>
-  <object id="177" gid="385" x="816" y="1104" width="16" height="22">
-   <properties>
-    <property name="location" value=""/>
-    <property name="spawned_by" value="room1"/>
-   </properties>
-  </object>
-  <object id="178" gid="385" x="928" y="1072" width="16" height="22">
+  <object id="177" gid="385" x="800" y="1104" width="16" height="22">
    <properties>
     <property name="location" value=""/>
     <property name="spawned_by" value="room1"/>
    </properties>
   </object>
   <object id="179" gid="383" x="960" y="1104" width="16" height="16">
+   <properties>
+    <property name="location" value=""/>
+    <property name="spawned_by" value="room1"/>
+   </properties>
+  </object>
+  <object id="195" gid="383" x="848" y="1136" width="16" height="16">
    <properties>
     <property name="location" value=""/>
     <property name="spawned_by" value="room1"/>
@@ -2422,6 +2415,73 @@
     <property name="location" value="room2"/>
    </properties>
   </object>
+  <object id="188" gid="369" x="848" y="1040" width="16" height="16"/>
+  <object id="189" gid="369" x="848" y="1056" width="16" height="16"/>
+  <object id="190" gid="369" x="864" y="1056" width="16" height="16"/>
+  <object id="191" gid="369" x="880" y="1056" width="16" height="16"/>
+  <object id="192" gid="369" x="896" y="1056" width="16" height="16"/>
+  <object id="193" gid="369" x="912" y="1056" width="16" height="16"/>
+  <object id="194" gid="369" x="912" y="1040" width="16" height="16"/>
+  <object id="196" gid="371" x="480" y="752" width="16" height="16">
+   <properties>
+    <property name="def" value="ammo"/>
+    <property name="item" value="10 Tetrans"/>
+   </properties>
+  </object>
+  <object id="197" name="miniboss" gid="400" x="528" y="752" width="16" height="16"/>
+  <object id="198" gid="399" x="512" y="800" width="16" height="16">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="location" value="miniboss"/>
+   </properties>
+  </object>
+  <object id="199" gid="399" x="496" y="800" width="16" height="16">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="location" value="miniboss"/>
+   </properties>
+  </object>
+  <object id="201" gid="399" x="640" y="736" width="16" height="16">
+   <properties>
+    <property name="location" value="miniboss"/>
+    <property name="starts_locked" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="202" gid="399" x="640" y="720" width="16" height="16">
+   <properties>
+    <property name="direction" value="up"/>
+    <property name="location" value="miniboss"/>
+    <property name="starts_locked" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="203" gid="399" x="752" y="800" width="16" height="16">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="location" value="miniboss"/>
+    <property name="starts_locked" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="204" gid="399" x="768" y="800" width="16" height="16">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="location" value="miniboss"/>
+    <property name="starts_locked" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="205" gid="385" x="624" y="816" width="16" height="22">
+   <properties>
+    <property name="spawned_by" value="miniboss"/>
+   </properties>
+  </object>
+  <object id="206" gid="395" x="1040" y="768" width="16" height="16"/>
+  <object id="207" gid="395" x="1184" y="832" width="16" height="16"/>
+  <object id="208" gid="396" x="1104" y="800" width="16" height="16"/>
+  <object id="209" gid="394" x="848" y="512" width="16" height="16">
+   <properties>
+    <property name="spawned_by" value="room2"/>
+   </properties>
+  </object>
+  <object id="210" gid="394" x="288" y="528" width="16" height="16"/>
  </objectgroup>
  <objectgroup id="11" name="zones" visible="0" locked="1">
   <object id="24" type="area" x="512" y="896" width="256" height="256"/>
